@@ -7,19 +7,19 @@ const MenuCard = ({menuData}) => {
      <section class="main-card--cointainer">
        {  
           menuData.map((curElem)=>{
-            const { id, name, category, image, description } = curElem;
+//             const { id, name, category, image, description } = curElem;
             return(
-        <div className="container">
+                <div className="container">
         <div className="main">
         <div className="heading">
-            <span>{id}</span>
+            <span>{curElem.id}</span>
             <br/>
-            <p>{category}</p>
-            <h1>{name}</h1>
+            <p>{curElem.category}</p>
+            <h1>{curElem.name}</h1>
         </div>
-        <div className="body">{description}
+        <div className="body">{curElem.description}
                  <span>read</span> 
-                  <img src={image} /> 
+                  <img src={curElem.image} /> 
         </div>
         </div>
     </div>
