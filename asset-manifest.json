@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.0fb4dded.css",
-    "main.js": "/static/js/main.3e039b15.js",
-    "index.html": "/index.html",
-    "main.0fb4dded.css.map": "/static/css/main.0fb4dded.css.map",
-    "main.3e039b15.js.map": "/static/js/main.3e039b15.js.map"
+    "main.css": "/Resturent-ReactApp/static/css/main.0fb4dded.css",
+    "main.js": "/Resturent-ReactApp/static/js/main.3e039b15.js",
+    "index.html": "/Resturent-ReactApp/index.html",
+    "main.0fb4dded.css.map": "/Resturent-ReactApp/static/css/main.0fb4dded.css.map",
+    "main.3e039b15.js.map": "/Resturent-ReactApp/static/js/main.3e039b15.js.map"
   },
   "entrypoints": [
     "static/css/main.0fb4dded.css",
