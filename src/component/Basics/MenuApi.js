@@ -1,7 +1,7 @@
 const Menu = [
     {
       id: 1,
-      image: "images/maggi.jpg",
+      image: "public/Images/maggi.jpg",
       name: "maggi",
       category: "breakfast",
       price: "12₹",
