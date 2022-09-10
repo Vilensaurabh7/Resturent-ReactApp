@@ -2,41 +2,43 @@
     margin: 0;
     padding: 0;
 }
-
+html{
+    font-size: 11%;
+}
 .main-card--cointainer {
     display: grid;
-    grid-template-columns: repeat(3, minmax(300px, 500px));
-    grid-gap: 50px;
+    grid-template-columns: repeat(3, minmax(18.375rem, 305.625rem));
+    grid-gap: 3.125rem;
     justify-content: space-around;
   }
 section{
-    padding: 8px;
+    padding: 5rem;
 }
 .container{
     background-size: cover;
-    border: 1.5px solid rgba(66, 66, 66, 0.534);
+    border: 0.9375rem solid rgba(66, 66, 66, 0.534);
     border-left-color: rgb(0, 183, 255);
     border-right-color:rgb(247, 0, 255) ;
     border-top-color:rgb(0, 174, 255) ;
     border-bottom-color:rgb(255, 0, 191) ;
-    padding: 8px;
-    margin: 6px;
-    border-radius: 1.5px;
+    padding: 5rem;
+    margin: 3.75rem;
+    border-radius: 0.9375rem;
 }
 .heading{
     text-transform: capitalize;
-     padding: 2px;
-     margin: 3px;
+     padding: 1.25rem;
+     margin: 1.875rem;
 }
 .heading p{
     text-transform: uppercase;
-    font-size: 15px;
-    margin-top: 15px;
+    font-size: 9.375rem;
+    margin-top: 9.375rem;
 }
 .heading span{
-    border: 2px solid rgba(92, 92, 92, 0.548);
+    border: 1.25rem solid rgba(92, 92, 92, 0.548);
     border-radius: 52%;
-    padding: 3px 6px;
+    padding: 1.875rem 3.75rem;
     border-left-color: red;
     border-right-color:blue ;
     border-top-color:red ;
@@ -45,17 +47,17 @@ section{
     font-weight: bolder;
 }
 .main{
-    font-size: 20px;
-    padding: 5px;
+    font-size: 12.5rem;
+    padding: 3.125rem;
 }
 .body{
-    padding: 3px;
+    padding: 1.875rem;
     
 }
 .body span  {
     display: flex;
     align-items: center;
-    letter-spacing: 3px;
+    letter-spacing: 1.875rem;
     text-transform: uppercase;
     font-family:'Bangers', cursive;
   }
@@ -64,34 +66,49 @@ section{
     flex: 0.9;
     margin-left: 0.2rem;
     margin-right: 2rem;
-    height: 1px;
+    height: 0.0675rem;
     background:linear-gradient(to left,rgb(233, 16, 161),rgb(13, 13, 14));
      
   }
 img{
     width: 83%;
     height: 50%;
-    margin: 12px;
+    margin: 7.5rem;
 }
 .cont{
-    margin: 22px 25% ;
+    margin: 13.75rem 25% ;
     background:linear-gradient(to right,rgb(171, 243, 129),rgb(72, 150, 240));
-    border-radius: 9px; 
-    padding: 12px 6px;
+    border-radius: 5.625rem; 
+    padding: 7.5rem 3.75rem;
     text-align: center;
 }
 .button{
     text-transform: uppercase;
     border: none;
     background-color:transparent;
-    font-size: 16px;
-    margin: 5px;
-    padding: 5px 8px;
-    border-radius: 13px;
+    font-size: 10rem;
+    margin: 3.125rem;
+    padding: 3.125rem 5rem;
+    border-radius: 8.125rem;
     font-weight: bolder;
 }
  .button:hover{
     color: rgb(255, 253, 255);
     background:linear-gradient(to left,rgb(204, 74, 243),rgb(5, 199, 248));
     cursor: pointer;
+ }
+ @media (Max-width:970px) {
+    html{
+        font-size: 10%;
+    }
+ }
+ @media (Max-width:770px) {
+    html{
+        font-size: 9%;
+    }
+ }
+ @media (Max-width:550px) {
+    html{
+        font-size: 5%;
+    }
  }
